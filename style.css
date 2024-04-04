@@ -1,0 +1,30 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.movie {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.movie h2 {
+    margin-top: 0;
+}
+
+body {
+    padding-top: 60px;
+}
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.movie {
+    border: 1px solid #ddd; 
+    padding: 10px;
+    margin-bottom: 20px;
+}
