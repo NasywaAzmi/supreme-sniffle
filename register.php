@@ -8,9 +8,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "INSERT INTO users (username, password) VALUES ('$username', '$password')";
 
     if ($conn->query($sql) === TRUE) {
-        header("location: login.html");
+        echo '<script>alert("Registrasi berhasil!"); window.location.href = "login.html";</script>';
     } else {
-        echo "Error: " . $sql . "<br>" . $conn->error;
+        echo '<script>alert("Registrasi gagal."); window.location.href = "register.html";</script>';
     }
 }
 

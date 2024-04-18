@@ -5,26 +5,44 @@
 }
 
 .movie {
-    border: 1px solid #ccc;
-    margin-bottom: 10px;
-    padding: 10px;
+    border: 1px solid #ddd; /* Aturan pertama */
+    padding: 10px; /* Aturan pertama */
+    margin-bottom: 20px; /* Aturan pertama */
+    margin-top: 20px; /* Aturan kedua */
+    border: 1px solid #ced4da; /* Aturan kedua */
+    border-radius: 5px; /* Aturan kedua */
+    padding: 20px; /* Aturan kedua */
 }
 
 .movie h2 {
     margin-top: 0;
 }
 
-body {
-    padding-top: 60px;
+html, body {
+    height: 100%;
 }
-footer {
+
+.container {
+    min-height: calc(100vh - 60px);
+}
+
+.footer {
     background-color: #343a40;
-    color: #fff;
+    color: #ffffff;
     padding: 20px 0;
-    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 .movie {
     border: 1px solid #ddd; 
     padding: 10px;
     margin-bottom: 20px;
+}
+
+.bingkai {
+    margin-top: 20px;
+    border: 1px solid #ced4da; /* Warna garis bingkai */
+    border-radius: 5px; /* Mengatur sudut border */
+    padding: 20px; /* Padding di dalam bingkai */
 }
